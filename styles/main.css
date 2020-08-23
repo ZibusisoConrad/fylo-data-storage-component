@@ -1,5 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-image: url("./images/bg-desktop.png");
-    height: 100%;
-    background-size: cover;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom center;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    /*background-color: white;*/
+    display: flex;
+    height: 220px;
+    width: 940px;
+    margin-left: 20%;
+    position: absolute;
+    top: 220px;
+}
+
+section {
+    background-color: hsl(228, 56%, 26%);
+    justify-content: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.options-section {
+    width: 350px;
+    height: 200px;
+    border-top-right-radius: 90px;
+}
+
+.options {
+    display: flex;
+}
+
+.metrics-section {
+    width: 540px;
+    height: 150px;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
 }
