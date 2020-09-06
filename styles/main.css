@@ -8,40 +8,61 @@
 }
 
 body {
+    /* font stuff */
     font-family: 'Raleway', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: white;
+
+    /* background stuff */
     background-color: hsl(229, 57%, 11%);
     background-image: url("../images/bg-desktop.png");
     background-repeat: no-repeat;
     background-size: 100% 50%;
     background-position: bottom center;
     height: 100vh;
+
+    /* position stuff */
+    /* padding: 10px; */
+    /* position: relative; */
+}
+
+/* content container stuff */
+.container { 
+    /* background stuff */
+    background-color: red;
+
+    /* div size */
+    height: auto;
+    width: 63.89%;
+    min-width: 375px;
+
+    /* positon stuff */
+    margin: 0 auto;  /* centre this div */
     position: relative;
-}
-
-.container {
+    /* top: 36%; */
     display: flex;
-    height: 220px;
-    width: 940px;
-    margin-left: 20%;
-    position: absolute;
-    top: 215px;
+    flex-wrap: wrap;
+    /* margin-left: 20%; */
+    /* position: absolute; */
+    /* top: 215px; */
 }
 
-section {
+ 
+.card {
     background-color: hsl(228, 56%, 26%);
-    margin: 10px;
     border-radius: 10px;
     padding: 40px;
+    margin: 15px;
+    min-width: 325px;
 }
-
+ 
 .options-section {
     width: 350px;
     height: 200px;
     border-top-right-radius: 90px;
 }
-
+/* 
 .logo {
     position: absolute;
 }
@@ -60,22 +81,23 @@ section {
     border-radius: 10px;
     position: relative;
 }
-
+ 
 .option img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+*/
 .metrics-section {
     width: 540px;
-    height: 150px;
-    position: absolute;
+    height: calc();
+    margin-top: 15px;
+    /* position: absolute;
     right: 10px;
-    bottom: 0px;
+    bottom: 0px; */
 }
-
+/* 
 .storage-left-flag {
     color : black;
     background-color: white;
@@ -89,25 +111,28 @@ section {
 }
 
 .loading-bar-container-wrapper {
-    background-color: ;
+    background-color: pink;
 }
 
 .loading-bar-container {
     display: flex-box;
-    width: 455px;
+    width: 100%;
     justify-items: center;
 }
 
 .loading-bar-end {
+    background-color: red;
     position: absolute;
-    right: 0%;
+    right: 40px;
 }
 
 .loading-bar {
-    width: 100%;
-    height: 20px;
-    border: black solid 3px;
     background-color: hsl(229, 57%, 11%) ;
+    border: black solid 3px;
+    height: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 100%;
 }
 
 .attribution {
@@ -120,4 +145,4 @@ section {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+ } */
