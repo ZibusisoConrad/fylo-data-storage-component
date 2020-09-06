@@ -156,6 +156,7 @@ body {
     margin-bottom: 10px;
     width: 100%;
 }
+*/
 
 .attribution {
     font-size: 11px; 
@@ -163,8 +164,9 @@ body {
     position: absolute;
     bottom: 10px;
     left: 40%;
+    
 }
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
- } */
+ } 
