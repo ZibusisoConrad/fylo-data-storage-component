@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
 *{
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -119,19 +121,22 @@ body {
 
     /* border: black 3px solid; */
 }
-/* 
+ 
 .storage-left-flag {
     color : black;
     background-color: white;
-    width: 175px;
-    height: 90px;
-    clip-path: polygon(100% 0, 100% 100%, 85% 70%, 0 70%, 0 0);
-    display: inline-flex;
+    width: 180px;
+    height: 95px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 85% 80%, 0 80%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     position: absolute;
     right: 40px;
     top: -25%;
 }
-
+/*
 .loading-bar-container-wrapper {
     background-color: pink;
 }
