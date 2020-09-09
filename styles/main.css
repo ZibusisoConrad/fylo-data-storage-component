@@ -121,20 +121,51 @@ body {
 
     /* border: black 3px solid; */
 }
+
+.storage-left-flag b {
+    font-size: 28pt;
+}
+
+.flag-text {
+    color: #0C122C;
+    font-size: 14px;
+    opacity: 0.5;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 10px;
+    position: relative;
+    bottom: 5px;
+}
  
 .storage-left-flag {
-    color : black;
-    background-color: white;
-    width: 180px;
-    height: 95px;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 85% 80%, 0 80%);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     position: absolute;
+    top: -30px;
     right: 40px;
-    top: -25%;
+    height: 70px;
+    width: 180px; 
+    border-radius: 10px;
+    color: hsl(229, 57%, 11%);
+    background-color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 10pt;
+    vertical-align: middle;
+}
+
+.storage-left-flag ::after {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 0px solid transparent;
+    border-top: 30px solid white;
 }
 /*
 .loading-bar-container-wrapper {
