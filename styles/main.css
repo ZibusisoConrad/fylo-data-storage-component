@@ -143,29 +143,28 @@ body {
     justify-content: center;
     text-align: center;
     position: absolute;
-    top: -30px;
+    top: -35px;
     right: 40px;
     height: 70px;
     width: 180px; 
-    border-radius: 10px;
+    border-radius: 10px 10px 0 10px;
     color: hsl(229, 57%, 11%);
     background-color: white;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10pt;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 
-.storage-left-flag ::after {
+.storage-left-flag ::before {
+    background-color: white;
     content: '';
     position: absolute;
     bottom: -18px;
     right: 0;
-    width: 0;
-    height: 0;
-    border-left: 30px solid transparent;
-    border-right: 0px solid transparent;
-    border-top: 30px solid white;
+    width: 20px;
+    height: 20px;
+    clip-path: polygon(100% 0,0 0, 100% 100%);
 }
 /*
 .loading-bar-container-wrapper {
