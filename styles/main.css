@@ -167,10 +167,6 @@ body {
     clip-path: polygon(100% 0,0 0, 100% 100%);
 }
 /*
-.loading-bar-container-wrapper {
-    background-color: pink;
-}
-
 .loading-bar-container {
     display: flex-box;
     width: 100%;
