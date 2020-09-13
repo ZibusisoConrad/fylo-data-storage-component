@@ -166,28 +166,44 @@ body {
     height: 20px;
     clip-path: polygon(100% 0,0 0, 100% 100%);
 }
-/*
-.loading-bar-container {
-    display: flex-box;
-    width: 100%;
-    justify-items: center;
-}
+
+/* .loading-bar-container {
+    
+} */
 
 .loading-bar-end {
-    background-color: red;
     position: absolute;
     right: 40px;
 }
 
 .loading-bar {
     background-color: hsl(229, 57%, 11%) ;
-    border: black solid 3px;
+    border: hsl(229, 57%, 11%) solid 3px;
+    border-radius: 10px;
     height: 20px;
     margin-top: 20px;
     margin-bottom: 10px;
     width: 100%;
 }
-*/
+
+.bar {
+    background-image: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    width: calc(815 / 1000 * 100%);
+    height: 100%;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1000;
+}
+
+.loading-bar-end-eclipse {
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
 
 .attribution {
     font-size: 11px; 
