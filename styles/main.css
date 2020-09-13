@@ -69,17 +69,12 @@ body {
     width: 350px;
     height: 200px;
     border-top-right-radius: 90px;
-}
-/* 
-.logo {
-    position: absolute;
-}*/
+} 
 
 .options {
     /* float: right; */
     position : absolute;
     bottom: 40px;
-    /* background-color: blanchedalmond; */
 }
 
 .option {
@@ -97,10 +92,6 @@ body {
     height: 50%;
     width: 50%;
     transform: translate(50%, 50%);
-    /* display: flex;
-    justify-content: center; */
-    /* margin: 0 auto; */
-    /* background-color: brown; */
 }
 
 .option-img img{
@@ -118,8 +109,6 @@ body {
     position: absolute;
     right: 0%;
     bottom: 0px;
-
-    /* border: black 3px solid; */
 }
 
 .storage-left-flag b {
@@ -153,7 +142,6 @@ body {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 10pt;
-    /* vertical-align: middle; */
 }
 
 .storage-left-flag ::before {
@@ -166,10 +154,6 @@ body {
     height: 25px;
     clip-path: polygon(100% 0,0 0, 100% 100%);
 }
-
-/* .loading-bar-container {
-    
-} */
 
 .loading-bar-end {
     position: absolute;
